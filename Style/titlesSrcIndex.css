@@ -1,0 +1,41 @@
+.main_title::after {
+  content: "Strategy+ Business Lab";
+  animation: main_title 5s infinite,
+             main_title_content 20s infinite;
+}
+
+.subtitle:after {
+  content: "Strategic about your business";
+  animation: subtitle 5s infinite,
+             subtitle_content 20s infinite;
+}
+
+@keyframes main_title_content {
+  0%, 20% {
+    content: "Strategy+ Business Lab";
+  }
+  25%, 45% {
+    content: "Strategy+ Business Lab";
+  }
+  50%, 70% {
+    content: "Source of global opportunites";
+  }
+  75%, 95% {
+    content: "Source of global opportunites";
+  }
+}
+
+@keyframes subtitle_content {
+  0%, 20% {
+    content: "Strategic about your business";
+  }
+  25%, 45% {
+    content: "Because Business is Human";
+  }
+  50%, 70% {
+    content: "Local Market Intelligence";
+  }
+  75%, 95% {
+    content: "Industry Know-how";
+  }
+}

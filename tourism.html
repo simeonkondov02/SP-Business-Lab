@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Business Case: Tourism | Strategy+ Business Lab</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="SP Business Lab, Strategy+ Buiness Lab, SP Biz Lab, TourismTech, Tourism">
+    <meta name="author" content="Simeon Kondov, simeonkondov2@gmial.com">
+
+    <link rel="icon" href="Resurces/Images/Logos/logo200x200.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="Style/deskNav.css">
+    <link rel="stylesheet" href="Style/titleScreen.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/menuBurger.css">
+    <link rel="stylesheet" href="Style/mobileMenu.css">
+    <link rel="stylesheet" href="Style/titles.css">
+    <link rel="stylesheet" href="Style/card.css">
+    <link rel="stylesheet" href="Style/verticalMenu.css">
+    <link rel="stylesheet" href="Style/onScroll.css">
+    <link rel="stylesheet" href="Style/fullWidthGlassCard.css">
+    <link rel="stylesheet" href="Style/paragraphs.css">
+    <link rel="stylesheet" href="Style/containers.css">
+    <link rel="stylesheet" href="Style/buttons.css">
+    <link rel="stylesheet" href="Style/horisontalCard.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <link rel="stylesheet" href="Style/scrollToTopButton.css">
+    <link rel="stylesheet" href="Style/scrollbar.css">
+    <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="stylesheet" href="Style/bussinesCases.css">
+    <link rel="stylesheet" href="Style/media_card.css">
+    <link rel="stylesheet" href="Style/mainTitle.css">
+    <link rel="stylesheet" href="Style/backgroundsSrcTourism.css">
+    <link rel="stylesheet" href="Style/titlesSrcTourism.css">
+
+    <script type="text/javascript" src="Script/titleScreen.js"></script>
+    <script type="text/javascript" src="Script/menu.js"></script>
+    <script type="text/javascript" src="Script/glassEffect.js"></script>
+    <script type="text/javascript" src="Script/card.js"></script>
+    <script type="text/javascript" src="Script/onScroll.js"></script>
+    <script type="text/javascript" src="Script/footer.js"></script>
+    <script type="text/javascript" src="Script/scrollToTop.js"></script>
+
+  </head>
+  <body id="body" onload="changeTourismTitleBoxImage(); loadGlass(); onScroll(); calculateCurrentYear()" onscroll="scrollFunction()">
+
+    <nav id="top_navigation">
+
+      <a href="index.html"><img class="top_logo" src="Resurces/Images/Logos/logo.png"></a>
+
+      <ul class="desktop_menu">
+
+        <li class"desktop_menu_item"><a href="index.html">Home</a></li>
+
+        <li class"desktop_menu_item">
+          <a href="#">What we do</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+            <li id="internal_dropdown_menu_show_button" class"desktop_menu_item">
+              <a href="index.html#advisory_hub">Advisory Hub</a>
+              <img src="Resurces\Icons\right.png">
+
+              <ul class="internal_dropdown_menu">
+                <li class"internal_desktop_menu_item"><a href="index.html#startup">STARTUP & SCALEUP COMPANIES</a></li>
+                <li class"internal_desktop_menu_item"><a href="index.html#grownup">GROWN-UP COMPANIES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li id="double_dropdown_menu_show_button" class"desktop_menu_item">
+          <a href="businessSimulations.html#all_industries_card">Industries</a>
+
+          <ul class="double_dropdown_menu">
+
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="it.html">IT</a></li>
+            <li><a href="health.html">Health</a></li>
+            <li><a href="managementConsultancy.html">Management Consultancy</a></li>
+            <li><a href="retail.html">Retail</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="tourism.html">Tourism</a></li>
+
+            <!--<ul class="double_dropdown_menu_right">
+              <li><a href="#">Manifacturing</a></li
+            </ul>-->
+
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="#">Capabilities</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+            <li class"desktop_menu_item"><a target="_blank" href="http://businesshubs.eu">Business Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+
+      </ul>
+
+      <ul class="mobile_menu">
+        <button class="open_menu_button"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), openMenu()"
+                aria-label="Main Menu">
+          <svg width="6vh" height="6vh" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331
+                                        94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,
+                                        74.999942 75.000211,74.999942 L 25.000021,25.000058"/>
+
+            <path class="line line2" d="M 20,50 H 80"/>
+
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669
+                                        94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,
+                                        25.000058 75.000211,25.000058 L 25.000021,74.999942"/>
+          </svg>
+        </button>
+      </ul>
+
+    </nav>
+
+    <header id="top_screen">
+
+      <span class="big_circle"></span>
+
+      <span class="middle_circle"></span>
+
+      <span class="small_circle"></span>
+
+      <section class="title_container">
+
+        <div>
+          <h1 class="main_title"></h1>
+
+          <span class="title_line"></span>
+
+          <h3 class="subtitle"></h3>
+        </div>
+
+      </section>
+
+    </header>
+
+    <header id="mobile_menu">
+
+      <section id="main_mobile_menu_container">
+
+        <ul>
+          <li class="mobile_menu_item"><a href="index.html" onclick="openMenu()">Home</a></li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward()">
+            <a href="#">What we do<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward3()">
+            <a href="#">Industries<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward4()">
+            <a href="#">Capabilities<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+        </ul>
+
+      </section>
+
+      <section id="mobile_menu_container_2">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuForward2()">
+            <a href="#">Advisitory hub<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_3">
+        <ul>
+          <li style="height: 120px;" class"mobile_menu_item"><a href="index.html#startup" onclick="openMenu()">STARTUP & SCALEUP<br>COMPANIES</a></li>
+          <li class"mobile_menu_item"><a href="index.html#grownup" onclick="openMenu()">GROWN-UP COMPANIES</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack2()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></i></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_4">
+        <ul>
+          <li class"mobile_menu_item"><a href="construction.html">Construction</a></li>
+          <li class"mobile_menu_item"><a href="health.html">Health</a></li>
+          <li class"mobile_menu_item"><a href="it.html">IT</a></li>
+          <li class"mobile_menu_item"><a href="managementConsultancy.html">Management Consultancy</a></li>
+          <li class"mobile_menu_item"><a href="retail.html">Retail</a></li>
+          <li class"mobile_menu_item"><a href="social.html">Social</a></li>
+          <li class"mobile_menu_item"><a href="tourism.html">Tourism</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack3()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_5">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+          <li class"mobile_menu_item"><a target="_blank" href="https://businesshubs.eu" onclick="openMenu()">Business Hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack4()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+    </header>
+
+    <section class="main_container" id="main_text">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Business Case:</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">Tourism</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+    </section>
+
+    <section class="main_container" id="image_and_video">
+
+      <div class="blur_container">
+
+        <div class="media_card">
+          <div class="content">
+            <h2>Tourism</h2>
+
+            <aside class="left_pannel">
+              <h3>TourismTech Mapping Report 2020</h3>
+              <p>
+                BULGARIA: Tourism Tech Mapping Report 2020, 1 ed. is the first and only analytical overview of all Bulgarian tech solutions for the Tourism industry,
+                inclusive of Hospitality, Hotel Management, Property Management, Travel solutions, Restaurant Management, Entertainment, etc. Officially presented on 29.09.2020
+              </p>
+            </aside>
+
+            <aside class="right_pannel">
+              <img src="Resurces\Images\Tech Hubs\Original FHD\TourismTech.jpg">
+            </aside>
+
+          </div>
+          <img class="card_background_image after_btn" src="Resurces\Images\Business Simulations\4.jpg">
+        </div>
+
+      </div>
+
+      <a href="https://prexcelerate.eu/2020-bulgaria-tourism-tech-mapping-report/"><div class="btn from-top">Read More</div></a>
+
+      <div class="blur_container">
+
+        <div class="media_card">
+          <div class="content">
+            <h2>Tourism</h2>
+
+            <aside class="right_pannel">
+              <h3>Presenting Bulgarian Tourism Tech</h3>
+              <p>
+                Sylvia Pavlova MBA CMC, Co-Founder PrEXCELerator Bulgaria, presents the results of BULGARIA: Tourism Tech Mapping Report 2020 on 29 February 2021.<br>
+                Date of official announcement of Report results: 29 September 2020.
+              </p>
+            </aside>
+
+            <aside class="left_pannel">
+              <iframe class="video_iframe"
+                src="https://www.youtube.com/embed/IA8qNiMflIw"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </aside>
+
+          </div>
+          <img class="card_background_image after_btn" src="Resurces\Images\Business Simulations\4.jpg">
+        </div>
+
+      </div>
+
+      <img class="container_break_180 after_btn" src="Resurces\Images\Container Breaks\PNG\5.png">
+
+    </section>
+
+    <section class="main_container" id="recomendations">
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">You might</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">also be</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">interested in:</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div class="blur_container">
+
+        <div class="card">
+          <div class="content">
+            <h2>01</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 2.5em">Management Consultancy</h3>
+            <a href="managementConsultancy.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\1.jpg">
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>02</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 3em">Construction</h3>
+            <br><br>
+            <a href="construction.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\3.jpg">
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>03</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 5em">Social</h3>
+            <a href="social.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\2.jpg">
+        </div>
+
+      </div>
+
+      <div class="btn from-top">View All</div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="blur_container">
+
+        <div class="full_width_card" id="main_footer_container">
+          <div class="content">
+            <!--<img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">-->
+            <h2></h2>
+            <h3 class="revealOnScroll" data-animation="bounceIn"></h3>
+
+            <section id="left">
+              <a href=""><img id="footer_logo" src="Resurces/Images/Logos/logo.png"></a>
+              <p id="year">© 2016 - 2022 Strategy+ Business Lab</p>
+              <p>All Rights Reserved!</p>
+
+              <h4>Contact Us</h4>
+
+              <a id="contact_us" href="mailto: hello@spbusinesslab.com">hello@spbusinesslab.com</a>
+            </section>
+
+            <section id="middle">
+              <h4 id="follow_us">Follow Us</h4>
+
+              <ul id="contacts_list">
+                <li class="contacts_list_item">
+                  <p>Strategy+ Business Lab</p>
+                  <a target="_blank" href="https://www.youtube.com/channel/UC0n_8hJ_opqCj5EBXItahaA/videos" style="background-color: #9933ff"><img src="Resurces\Icons\youtube_w.png"></a>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #d966ff"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/spbusinesslab" style="background-color: #ff66ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PrEXCELator Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #8000ff;background-color: "><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/PrEXCELerator" style="background-color: #cc33ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/prexcelerator_bulgaria/" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PropTech Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/proptech-bulgaria/" style="background-color: #6600cc"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/proptechbulgaria" style="background-color: #bf00ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/proptech_bulgaria/?hl=af" style="background-color: #ff33cc"><img src="Resurces\Icons\instagram_w.png"></a>
+                  <a target="_blank" href="https://twitter.com/proptech_bg" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+              </ul>
+
+            </section>
+
+            <section id="right">
+              <ul>
+                <li><a target="_blank" href="http://proptechbulgaria.eu/">PropTech</a></li>
+                <li><a target="_blank" href="http://impactventures.today/">Impact Ventures</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/healthtech-hub/">HealthTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/2020-bulgaria-tourism-tech-mapping-report/">Tourism Tech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/edutech-market-in-bulgaria/">EduTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/industry-analyses/">FoodTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/blog/2020/12/10/fashion-tech-post/">FashionTech</a></li>
+              </ul>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="blur_container">
+
+        <div class="full_width_card" id="developed_by_container">
+          <p id="developed_by">Developed By Simeon Kondov</p>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <a href="#" id="scroll_to_top_button"><img src="Resurces\Icons\to-top.png" width="60px"></a>
+
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.main_title::after {
+  content: "Strategy+ Business Lab";
+  animation: main_title 5s infinite,
+             main_title_content 15s infinite;
+}
+
+.subtitle:after {
+  content: "Strategic about your future";
+  animation: subtitle 5s infinite,
+             subtitle_content 15s infinite;
+}
+
+@keyframes main_title_content {
+  0%, 23% {
+    content: "Strategy+ Business Lab";
+  }
+  33%, 56% {
+    content: "Where the past present, and future";
+  }
+  66%, 90% {
+    content: "Real companies";
+  }
+}
+
+@keyframes subtitle_content {
+  0%, 23% {
+    content: "Strategic about your future";
+  }
+  33%, 56% {
+    content: "of your business meet";
+  }
+  66%, 90% {
+    content: "business cases";
+  }
+}

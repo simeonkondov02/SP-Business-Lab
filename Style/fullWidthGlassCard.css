@@ -1,0 +1,79 @@
+.blur_container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  /*max-width: 9999*/
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+.blur_container .full_width_card {
+	position: relative;
+	width: 115vw;
+	margin-left: -5vw;
+	height: 600px;
+	margin-bottom: 200px;
+	background: rgba(255,255,255,0.1);
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px) ;
+}
+
+.blur_container .full_width_card:hover {
+	background: rgba(255,255,255,0.2);
+}
+
+.blur_container .full_width_card:hover .content {
+	transform: scale(1.1, 1.1);
+}
+
+.blur_container .full_width_card:hover .card_background_image {
+  display: inline;
+}
+
+.blur_container .full_width_card .content {
+	padding: 20px;
+	text-align: center;
+	transition: 0.5s;
+	transform: translateY(10px);
+	opacity: 0.6;
+}
+
+.blur_container .full_width_card .content h2 {
+	position: absolute;
+	text-outline: -30px;
+	top: -70px;
+  left: -100px;
+	right: 30px;
+	font-size: 20em;
+  transform: rotate(-20deg);
+	color: rgba(255, 255, 255, 0.1);
+	pointer-events: none;
+}
+
+.blur_container .full_width_card .content h3 {
+	font-size: calc(2.3vh + .5vw + 11px);
+	color: white;
+	z-index: 1;
+	margin-top: 20px;
+}
+
+.blur_container .full_width_card .content p {
+	font-size: calc(1.5vh + .2vw + 7px);
+	color: white;
+	font-weight: 300;
+}
+
+.card_background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 120%;
+  opacity: 0.2;
+  z-index: -1;
+  display: none;
+	transform: scale(1.1, 1.1);
+}

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Business Case: Construction | Strategy+ Business Lab</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="SP Business Lab, Strategy+ Buiness Lab, SP Biz Lab, Construction, PropTech, PropTech Bulgaria">
+    <meta name="author" content="Simeon Kondov, simeonkondov2@gmial.com">
+
+    <link rel="icon" href="Resurces/Images/Logos/logo200x200.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="Style/deskNav.css">
+    <link rel="stylesheet" href="Style/titleScreen.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/menuBurger.css">
+    <link rel="stylesheet" href="Style/mobileMenu.css">
+    <link rel="stylesheet" href="Style/titles.css">
+    <link rel="stylesheet" href="Style/card.css">
+    <link rel="stylesheet" href="Style/verticalMenu.css">
+    <link rel="stylesheet" href="Style/onScroll.css">
+    <link rel="stylesheet" href="Style/fullWidthGlassCard.css">
+    <link rel="stylesheet" href="Style/paragraphs.css">
+    <link rel="stylesheet" href="Style/containers.css">
+    <link rel="stylesheet" href="Style/buttons.css">
+    <link rel="stylesheet" href="Style/horisontalCard.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <link rel="stylesheet" href="Style/scrollToTopButton.css">
+    <link rel="stylesheet" href="Style/scrollbar.css">
+    <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="stylesheet" href="Style/bussinesCases.css">
+    <link rel="stylesheet" href="Style/media_card.css">
+    <link rel="stylesheet" href="Style/mainTitle.css">
+    <link rel="stylesheet" href="Style/backgroundsSrcConstruction.css">
+    <link rel="stylesheet" href="Style/titlesSrcConstruction.css">
+
+    <script type="text/javascript" src="Script/titleScreen.js"></script>
+    <script type="text/javascript" src="Script/menu.js"></script>
+    <script type="text/javascript" src="Script/glassEffect.js"></script>
+    <script type="text/javascript" src="Script/card.js"></script>
+    <script type="text/javascript" src="Script/onScroll.js"></script>
+    <script type="text/javascript" src="Script/footer.js"></script>
+    <script type="text/javascript" src="Script/scrollToTop.js"></script>
+
+  </head>
+  <body id="body" onload="loadGlass()">
+
+    <nav id="top_navigation">
+
+      <a href="index.html"><img class="top_logo" src="Resurces/Images/Logos/logo.png"></a>
+
+      <ul class="desktop_menu">
+
+        <li class"desktop_menu_item"><a href="index.html">Home</a></li>
+
+        <li class"desktop_menu_item">
+          <a href="#">What we do</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+            <li id="internal_dropdown_menu_show_button" class"desktop_menu_item">
+              <a href="index.html#advisory_hub">Advisory Hub</a>
+              <img src="Resurces\Icons\right.png">
+
+              <ul class="internal_dropdown_menu">
+                <li class"internal_desktop_menu_item"><a href="index.html#startup">STARTUP & SCALEUP COMPANIES</a></li>
+                <li class"internal_desktop_menu_item"><a href="index.html#grownup">GROWN-UP COMPANIES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li id="double_dropdown_menu_show_button" class"desktop_menu_item">
+          <a href="businessSimulations.html#all_industries_card">Industries</a>
+
+          <ul class="double_dropdown_menu">
+
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="it.html">IT</a></li>
+            <li><a href="health.html">Health</a></li>
+            <li><a href="managementConsultancy.html">Management Consultancy</a></li>
+            <li><a href="retail.html">Retail</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="tourism.html">Tourism</a></li>
+
+            <!--<ul class="double_dropdown_menu_right">
+              <li><a href="#">Manifacturing</a></li
+            </ul>-->
+
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="#">Capabilities</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+            <li class"desktop_menu_item"><a target="_blank" href="http://businesshubs.eu">Business Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+
+      </ul>
+
+      <ul class="mobile_menu">
+        <button class="open_menu_button"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), openMenu()"
+                aria-label="Main Menu">
+          <svg width="6vh" height="6vh" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331
+                                        94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,
+                                        74.999942 75.000211,74.999942 L 25.000021,25.000058"/>
+
+            <path class="line line2" d="M 20,50 H 80"/>
+
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669
+                                        94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,
+                                        25.000058 75.000211,25.000058 L 25.000021,74.999942"/>
+          </svg>
+        </button>
+      </ul>
+
+    </nav>
+
+    <header id="top_screen">
+
+      <span class="big_circle"></span>
+
+      <span class="middle_circle"></span>
+
+      <span class="small_circle"></span>
+
+      <section class="title_container">
+
+        <div>
+          <h1 class="main_title"></h1>
+
+          <span class="title_line"></span>
+
+          <h3 class="subtitle"></h3>
+        </div>
+
+      </section>
+
+    </header>
+
+    <header id="mobile_menu">
+
+      <section id="main_mobile_menu_container">
+
+        <ul>
+          <li class="mobile_menu_item"><a href="index.html" onclick="openMenu()">Home</a></li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward()">
+            <a href="#">What we do<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward3()">
+            <a href="#">Industries<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward4()">
+            <a href="#">Capabilities<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+        </ul>
+
+      </section>
+
+      <section id="mobile_menu_container_2">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuForward2()">
+            <a href="#">Advisitory hub<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_3">
+        <ul>
+          <li style="height: 120px;" class"mobile_menu_item"><a href="index.html#startup" onclick="openMenu()">STARTUP & SCALEUP<br>COMPANIES</a></li>
+          <li class"mobile_menu_item"><a href="index.html#grownup" onclick="openMenu()">GROWN-UP COMPANIES</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack2()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></i></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_4">
+        <ul>
+          <li class"mobile_menu_item"><a href="construction.html">Construction</a></li>
+          <li class"mobile_menu_item"><a href="health.html">Health</a></li>
+          <li class"mobile_menu_item"><a href="it.html">IT</a></li>
+          <li class"mobile_menu_item"><a href="managementConsultancy.html">Management Consultancy</a></li>
+          <li class"mobile_menu_item"><a href="retail.html">Retail</a></li>
+          <li class"mobile_menu_item"><a href="social.html">Social</a></li>
+          <li class"mobile_menu_item"><a href="tourism.html">Tourism</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack3()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_5">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+          <li class"mobile_menu_item"><a target="_blank" href="https://businesshubs.eu" onclick="openMenu()">Business Hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack4()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+    </header>
+
+    <section class="main_container" id="main_text">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Business Case:</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">Construction</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div class="two_col">
+        <p class="paragraph">
+          The project on the restructuring of SMA Ltd was assigned on 27/11/2007. This happened just a few months following the spinning off of the Machinery department
+          into a separate company.
+        </p>
+
+        <p class="paragraph">
+          What called for that restructuring was the increased demand on machinery in the time of the construction industry boost, i.e. 2004 - 2008. Despite of the high
+          demand on the services provided by the company and the whole lot of open public procurements and tender procedures underway, SMA was stuck to its down financial
+          performance.  The reason – it was to be traced down into the company itself. For the first months following the spin-off of the company, it suffered a poor
+          management. Heavily influenced by its appointed director, the company was persistently a bad loser in  public procurements. As it turned out, the reason happened
+          to be a conflict of interests. The appointed director  participated in same public procurements by another company of its own, whereas on the part of SMA he used
+          to propose such quotations which were doomed to fail so as to prevent it from competing with its own company in the same tenders.
+        </p>
+
+        <p class="paragraph">
+          On Stage I of the project concerning its operative restructuring, one calendar month following the start of the project, two new directors got appointed, plus a
+          study was conducted to ensure the team compatibility of the people within the existing teams. Further to the conclusions drawn up, the Board of the joint-stock
+          company assigned me to pursue the same project, however extended, that is its Stage II.
+        </p>
+
+        <p class="paragraph">
+          Stage II got completed by 02/2008. For this period, a new corporate structure model of SMA was proposed aiming at decentralizing the critical professional
+          information flow.
+        </p>
+
+        <p class="paragraph">
+          Following the outcome of Stage II and the submission of its deliverables, the owners of the Holding Jsc decided on one more project extension. This time,
+          the scope involved an audit of the operative processes in SMA with the view to get them restructured in a way as to bring them in line with the new corporate
+          structure of the company.
+        </p>
+
+        <p class="paragraph">
+          The project got completed on 09/05/2008, i.e. having its total length spanning all three stages, of 6 calendar months.
+        </p>
+
+        <p class="paragraph">
+          Following the completion of Stage III I was kept involved by the end of the first calendar year as of the start of the project applying the principle of the
+          ‘exception management’. At that time I was meant to monitor the performance of the directors and the company as a whole.
+        </p>
+
+        <p class="paragraph">
+          At the close of 2008, SMA Ltd scored highest in the increase of its revenue compared to the remainder 50 corporate entities within the holding structure. Just
+          a year earlier, the company used to rank last on the same list.
+          <br><br>
+          Client of the project: Holding Jsc<br>
+          Recipient company: SMA Ltd
+        </p>
+
+      </div>
+
+    </section>
+
+    <section class="main_container" id="image_and_video">
+
+      <div class="blur_container">
+
+        <!-- <div class="media_card">
+          <div class="content">
+            <aside class="right_pannel">
+            <h2>Construction</h2>
+            <h3>PropTech Mapping Report 2020</h3>
+
+            <p>
+              This is the second edition of BULGARIA:PropTech Mapping Report which is the only analytical information on the PropTech sector in Bulgaria:
+            </p>
+            </aside>
+
+            <aside class="left_pannel">
+              <img src="Resurces\Images\Tech Hubs\Original FHD\PropTech.jpg">
+            </aside>
+
+          </div>
+        </div> -->
+
+        <div class="card" style="width: 400px; height: 600px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>Construction</h2>
+            <h3 style="font-size: 3em">PropTech Mapping Report 2020</h3>
+            <p>This is the second edition of BULGARIA:PropTech Mapping Report which is the only analytical information on the PropTech sector in Bulgaria</p>
+            <a target="_blank" href="http://proptechbulgaria.eu/bulgaria-proptech-mapping-report-2020/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 600px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>Construction</h2>
+            <h3 style="font-size: 3em">PropTech Mapping Report 2021</h3>
+            <p>BULGARIA: PropTech Mapping Report 2021 [3rd edition] gets released while we are well into the pandemic crisis</p>
+            <a target="_blank" href="http://proptechbulgaria.eu/bulgaria-proptech-mapping-report-2021/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 600px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>Construction</h2>
+            <h3 style="font-size: 3em">PropTech Mapping Report 2022</h3>
+            <p>2022 BULGARIA: PROPTECH MAPPING REPORT, 4 EDITION | THE ONLY MARKET INTELLIGENCE ON PROPTECH IN AND FOR BULGARIA</p>
+            <a target="_blank" href="http://proptechbulgaria.eu/2022-bulgaria-proptech-mapping-report/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 600px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>Construction</h2>
+            <h3 style="font-size: 3em">2022 EUROPEAN PROPTECH: 30 COUNTRIES IN NUMBERS</h3>
+            <p></p>
+            <a target="_blank" href="http://proptechbulgaria.eu/2022-european-proptech-30-countries-in-numbers/">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="http://proptechbulgaria.eu/bulgaria-proptech-mapping-report-2020/"><div class="btn from-top">Read More</div></a>
+
+      <div class="blur_container">
+
+        <div class="card" style="width: 400px; height: 700px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>01</h2>
+            <h3 style="font-size: 3em">CORPORATE VIDEO PropTech Bulgaria</h3>
+
+            <br><br>
+
+            <iframe class="small_card_video_iframe"
+            src="https://www.youtube.com/embed/DvpOqiNiJIg"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 700px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>02</h2>
+            <h3 style="font-size: 2.5em">PropTech Bulgaria 2020<br>SEE Conference</h3>
+
+            <p class="full_width_p">
+              Specifics of the Bulgarian PropTech sector delivered on 04 November 2020 as part of PropTech Bulgaria 2020 | SEE Conference -
+              the 1st international PropTech Conference in South-East Europe.
+            </p>
+
+            <iframe class="small_card_video_iframe"
+              src="https://www.youtube.com/embed/A2PokDWo4CI"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 700px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>03</h2>
+            <h3 style="font-size: 2.6em">RE:Connect 2021<br>Panel Discussion 'Healthy Buildings'</h3>
+
+            <p class="full_width_p">
+              <br>Panel Discussion 'Healthy Buildings' - part of the Bulgarian PropTech Live streaming channel hosted on RE:Connect 1.0 on 07.01.2021<br><br>
+            </p>
+
+            <iframe class="small_card_video_iframe"
+              src="https://www.youtube.com/embed/s7U6o5WEeeQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 700px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>04</h2>
+            <h3 style="font-size: 2.2em">Bulgarian PropTech Live Streaming Channel<br>RE:Connect 1.0</h3>
+
+            <p class="full_width_p">
+              Digitizing of processes in Real Estate & Construction. The Panel Discussion is part of the Bulgarian live streaming channel on RE:Connect 1.0. on 07.01.2021
+            </p>
+
+            <iframe class="small_card_video_iframe"
+              src="https://www.youtube.com/embed/f1P7iK_2Ax0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 500px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>05</h2>
+            <h3 style="font-size: 3em">2021 CSEE PropTech Conference</h3>
+            <p></p>
+            <a target="_blank" href="http://seeproptech.eu/Conferences/2021/index.html">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 400px; height: 500px">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>06</h2>
+            <h3 style="font-size: 3em">2022 CSEE PropTech Conference</h3>
+            <p></p>
+            <a target="_blank" href="http://seeproptech.eu/Conferences/2021/index.html">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <img class="container_break" src="Resurces\Images\Container Breaks\PNG\9.png">
+
+    <section class="main_container" id="recomendations">
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">You might</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">also be</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">interested in:</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div class="blur_container">
+
+        <div class="card">
+          <div class="content">
+            <h2>01</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 3em">Construction</h3>
+
+            <br><br>
+            <a href="construction.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\1.jpg">
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>02</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 5em">IT</h3>
+            <a href="it.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\2.jpg">
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>03</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 5em">Tourism</h3>
+            <a href="tourism.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\3.jpg">
+        </div>
+
+      </div>
+
+      <div class="btn from-top">View All</div>
+
+    </section
+
+    <footer class="footer">
+      <div class="blur_container">
+
+        <div class="full_width_card" id="main_footer_container">
+          <div class="content">
+            <!--<img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">-->
+            <h2></h2>
+            <h3 class="revealOnScroll" data-animation="bounceIn"></h3>
+
+            <section id="left">
+              <a href=""><img id="footer_logo" src="Resurces/Images/Logos/logo.png"></a>
+              <p id="year">© 2016 - 2022 Strategy+ Business Lab</p>
+              <p>All Rights Reserved!</p>
+
+              <h4>Contact Us</h4>
+
+              <a id="contact_us" href="mailto: hello@spbusinesslab.com">hello@spbusinesslab.com</a>
+            </section>
+
+            <section id="middle">
+              <h4 id="follow_us">Follow Us</h4>
+
+              <ul id="contacts_list">
+                <li class="contacts_list_item">
+                  <p>Strategy+ Business Lab</p>
+                  <a target="_blank" href="https://www.youtube.com/channel/UC0n_8hJ_opqCj5EBXItahaA/videos" style="background-color: #9933ff"><img src="Resurces\Icons\youtube_w.png"></a>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #d966ff"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/spbusinesslab" style="background-color: #ff66ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PrEXCELator Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #8000ff;background-color: "><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/PrEXCELerator" style="background-color: #cc33ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/prexcelerator_bulgaria/" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PropTech Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/proptech-bulgaria/" style="background-color: #6600cc"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/proptechbulgaria" style="background-color: #bf00ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/proptech_bulgaria/?hl=af" style="background-color: #ff33cc"><img src="Resurces\Icons\instagram_w.png"></a>
+                  <a target="_blank" href="https://twitter.com/proptech_bg" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+              </ul>
+
+            </section>
+
+            <section id="right">
+              <ul>
+                <li><a target="_blank" href="http://proptechbulgaria.eu/">PropTech</a></li>
+                <li><a target="_blank" href="http://impactventures.today/">Impact Ventures</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/healthtech-hub/">HealthTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/2020-bulgaria-tourism-tech-mapping-report/">Tourism Tech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/edutech-market-in-bulgaria/">EduTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/industry-analyses/">FoodTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/blog/2020/12/10/fashion-tech-post/">FashionTech</a></li>
+              </ul>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="blur_container">
+
+        <div class="full_width_card" id="developed_by_container">
+          <p id="developed_by">Developed By Simeon Kondov</p>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <a href="#" id="scroll_to_top_button"><img src="Resurces\Icons\to-top.png" width="60px"></a>
+
+  </body>
+</html>

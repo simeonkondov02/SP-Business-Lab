@@ -1,0 +1,23 @@
+.main_container {
+	text-align: center;
+}
+
+.container_break, .container_break_180 {
+	display: inline-block;
+	width: 100vw;
+	height: auto;
+	margin: -34vw 0 -26vw 0;
+	z-index: -99 !important
+}
+
+.container_break_180 {
+	transform: rotate(180deg);
+}
+
+.after_text {
+	margin: -14vw 0 -30vw 0 !important;
+}
+
+.after_btn {
+	margin: -26vw 0 -30vw 0 !important;
+}

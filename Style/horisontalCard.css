@@ -1,0 +1,69 @@
+.blur_container .horisontal_card {
+	position: relative;
+	width: 800px;
+	height: 300px;
+	margin: 15px 20px;
+}
+
+.blur_container .horisontal_card .content {
+	text-align: left;
+}
+
+.blur_container .horisontal_card .content h2 {
+	position: absolute;
+	text-outline: -30px;
+	top: -100px;
+  left: -100px;
+	right: 30px;
+	font-size: 20em;
+  transform: rotate(-20deg);
+	color: rgba(255, 255, 255, 0.1);
+	pointer-events: none;
+}
+
+.blur_container .horisontal_card .content h3 {
+	font-size: calc(2.3vh + .5vw + 11px);
+	color: white;
+	z-index: 1;
+	margin: 20px 40px;
+}
+
+.blur_container .horisontal_card .content p {
+	font-size: calc(1.2vh + .1vw + 5px);
+	color: white;
+	font-weight: 300;
+	color: rgb(0, 0, 0) !important;
+	font-weight: bold !important;
+	width: 50%;
+	padding-left: 50px
+}
+
+.blur_container .horisontal_card a {
+	position: absolute;
+  bottom: 52px;
+  right: 78px;
+	display: inline-block;
+	padding: 20px 30px;
+  font-size: calc(1.5vh + .2vw + 7px);
+  background-color: rgb(102, 153, 204);
+  color: black;
+	text-decoration: none;
+	font-weight: 500;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.blur_container .horisontal_card a:hover {
+  background-color: white;
+}
+
+.blur_container .horisontal_card ul li img {
+	width: 8px;
+	margin: 2px 6px 2px 0;
+}
+
+@media screen and (max-width: 1000px) {
+	.blur_container .horisontal_card {
+		height: 400px;
+	}
+}

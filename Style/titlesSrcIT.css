@@ -1,0 +1,29 @@
+.main_title::after {
+  content: "IT";
+  animation: main_title 5s infinite,
+             main_title_content 10s infinite;
+}
+
+.subtitle:after {
+  content: "";
+  animation: subtitle 5s infinite,
+             subtitle_content 10s infinite;
+}
+
+@keyframes main_title_content {
+  0%, 40% {
+    content: "IT";
+  }
+  50%, 90% {
+    content: "Strategy+ Business Lab";
+  }
+}
+
+@keyframes subtitle_content {
+  0%, 40% {
+    content: "";
+  }
+  50%, 90% {
+    content: "Corporate Consultancy";
+  }
+}

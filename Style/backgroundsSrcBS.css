@@ -1,0 +1,29 @@
+.big_circle {
+  background-image: url("Resurces/Images/Business Simulations/1.jpg");
+  animation: big_circle 5s infinite,
+             change_background 15s infinite;
+}
+
+.middle_circle {
+  background-image: url("Resurces/Images/Business Simulations/1.jpg");
+  animation: middle_circle 5s infinite,
+             change_background 15s infinite;
+}
+
+.small_circle {
+  background-image: url("Resurces/Images/Business Simulations/1.jpg");
+  animation: small_circle 5s infinite,
+             change_background 15s infinite;
+}
+
+@keyframes change_background {
+  0%, 31.5% {
+    background-image: url("../Resurces/Images/Business Simulations/1.jpg");
+  }
+  33%, 63.5% {
+    background-image: url("../Resurces/Images/Business Simulations/2.jpg");
+  }
+  66%, 97.5% {
+    background-image: url("../Resurces/Images/Business Simulations/3.jpg");
+  }
+}

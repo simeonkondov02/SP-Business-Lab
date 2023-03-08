@@ -1,0 +1,111 @@
+#top_screen {
+  display: inline-grid;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16vh;
+  margin-top: -6vh;
+  z-index: -1;
+}
+
+.big_circle {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  background-position: 50% 50%;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.middle_circle {
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  clip-path: circle(40vw at 50% 50%);
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+  background-position: 50% 50%;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+.small_circle {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  clip-path: circle(20vw at 50% 50%);
+  background-position: 50% 50%;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+
+
+@keyframes big_circle {
+  0%, 80% {
+    transform: rotate(0deg) scale(1, 1);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  90% {
+    transform: rotate(0deg) scale(1.1, 1.1);
+    filter: blur(.6vh);
+    -webkit-filter: blur(.6vh);
+  }
+  100% {
+    transform: rotate(0deg) scale(1, 1);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+}
+
+@keyframes middle_circle {
+  0%, 80% {
+    transform: rotate(0deg) scale(1, 1);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  95% {
+    transform: rotate(360deg) scale(1.05, 1.05);
+    filter: blur(.5vh);
+    -webkit-filter: blur(.5vh);
+  }
+  100% {
+    transform: rotate(360deg) scale(1, 1);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+}
+
+@keyframes small_circle {
+  0%, 80% {
+    transform: rotate(0deg);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  90% {
+    transform: rotate(360deg);
+    filter: blur(.3vh);
+    -webkit-filter: blur(.3vh);
+  }
+  100% {
+    transform: rotate(360deg);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+}
+
+@media screen and (max-width: 100vh) {
+  .big_circle {
+    background-size: cover;
+  }
+  .middle_circle, .small_circle {
+    display: none;
+  }
+}

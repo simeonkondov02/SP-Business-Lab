@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Red Hat Display';
+}
+
+body {
+	background: rgb(102, 153, 204);
+	overflow-x: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+}

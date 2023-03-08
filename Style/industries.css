@@ -1,0 +1,73 @@
+#all_industries_card {
+  width: 90vw;
+  height: fit-content;
+}
+
+#all_industries_card h2 {
+  font-size: 15em;
+  margin-top: 50px;
+}
+
+.custom_height .content ul li {
+  font-size: 18px;
+}
+
+.horisontal_card .content ul {
+  position: absolute;
+  bottom: 24px;
+  right: 100px;
+  font-size: 18px;
+}
+
+#three_col_card_container {
+  display: grid;
+	width: 100vw;
+  grid-template-areas: "s1 s2 s3 s4";
+  align-items: flex-start;
+}
+
+#section_1, #section_2, #section_3, #section_4 {
+  display: inline-block;
+  width: 100%;
+}
+
+#section_1 .card, #section_2 .card,
+#section_3 .card, #section_4 .card {
+  margin-bottom: 1vh;
+}
+
+#section_1 { grid-area: s1}
+
+#section_2 { grid-area: s2}
+
+#section_3 { grid-area: s3}
+
+#section_4 { grid-area: s4}
+
+@media screen and (max-width: 100vh) {
+  #three_col_card_container {
+    grid-template-areas: "s1" "s2 s3" "s4";
+  }
+
+  #section_1, #section_2, #section_3, #section_4 {
+    width: 100vw;
+    padding: 0 4vw 0 0;
+  }
+}
+
+.horisontal_card .content ul li {
+  margin-left: 100px;
+  position: relative;
+}
+
+.horisontal_card .content ol li {
+  margin-left: 40px;
+  position: relative;
+}
+
+.horisontal_card .content ul li i {
+  font-size: 14px;
+  position: absolute;
+  left: -18px;
+  top: 8px;
+}

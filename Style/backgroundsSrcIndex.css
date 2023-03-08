@@ -1,0 +1,32 @@
+.big_circle {
+  background-image: url("Resurces/Images/Title Backgrounds/1.jpg");
+  animation: big_circle 5s infinite,
+             change_background 20s infinite;
+}
+
+.middle_circle {
+  background-image: url("Resurces/Images/Title Backgrounds/1.jpg");
+  animation: middle_circle 5s infinite,
+             change_background 20s infinite;
+}
+
+.small_circle {
+  background-image: url("Resurces/Images/Title Backgrounds/1.jpg");
+  animation: small_circle 5s infinite,
+             change_background 20s infinite;
+}
+
+@keyframes change_background {
+  0%, 22.5% {
+    background-image: url("../Resurces/Images/Title Backgrounds/1.jpg");
+  }
+  25%, 47.5% {
+    background-image: url("../Resurces/Images/Title Backgrounds/2.jpg");
+  }
+  50%, 72.5% {
+    background-image: url("../Resurces/Images/Title Backgrounds/3.jpg");
+  }
+  75%, 97.5% {
+    background-image: url("../Resurces/Images/Title Backgrounds/4.jpg");
+  }
+}

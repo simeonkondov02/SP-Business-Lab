@@ -1,0 +1,56 @@
+.title_box {
+  position: relative;
+  display: inline-block;
+  width: 100vw;
+  height: calc(60px + 2vw);
+  overflow: hidden;
+	pointer-events: none;
+}
+
+.section_title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: calc(30px + 3vw);
+  letter-spacing: 2vw;
+  color: white;
+	pointer-events: none;
+  text-transform: uppercase;
+  font-family: "Josefin Slab";
+}
+
+.second_title {
+  font-size: calc(2.7vh + .4vw + 10px);
+  letter-spacing: 1vw;
+  margin-left: 1.5vw;
+  font-family: "Darker Grotesque";
+  color: rgba(255, 255, 255, 0.6);
+  margin: 150px 0 50px 0;
+}
+
+.second_title span {
+  color: aqua;
+  font-family: "Alfa Slab One";
+  letter-spacing: 5px;
+  font-size: calc(10px + 2vw);
+  text-transform: uppercase;
+}
+
+.container_title_line {
+  display: inline-block;
+  width: 34%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 16px 0 36px 0;
+}
+
+h4 {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  user-select: none;
+}

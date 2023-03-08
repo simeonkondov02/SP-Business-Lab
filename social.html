@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Business Case: Social | Strategy+ Business Lab</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="SP Business Lab, Strategy+ Buiness Lab, SP Biz Lab, Social">
+    <meta name="author" content="Simeon Kondov, simeonkondov2@gmial.com">
+
+    <link rel="icon" href="Resurces/Images/Logos/logo200x200.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="Style/deskNav.css">
+    <link rel="stylesheet" href="Style/titleScreen.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/menuBurger.css">
+    <link rel="stylesheet" href="Style/mobileMenu.css">
+    <link rel="stylesheet" href="Style/titles.css">
+    <link rel="stylesheet" href="Style/card.css">
+    <link rel="stylesheet" href="Style/verticalMenu.css">
+    <link rel="stylesheet" href="Style/onScroll.css">
+    <link rel="stylesheet" href="Style/fullWidthGlassCard.css">
+    <link rel="stylesheet" href="Style/paragraphs.css">
+    <link rel="stylesheet" href="Style/containers.css">
+    <link rel="stylesheet" href="Style/buttons.css">
+    <link rel="stylesheet" href="Style/horisontalCard.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <link rel="stylesheet" href="Style/scrollToTopButton.css">
+    <link rel="stylesheet" href="Style/scrollbar.css">
+    <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="stylesheet" href="Style/bussinesCases.css">
+    <link rel="stylesheet" href="Style/media_card.css">
+    <link rel="stylesheet" href="Style/mainTitle.css">
+    <link rel="stylesheet" href="Style/titlesSrcSocial.css">
+    <link rel="stylesheet" href="Style/backgroundsSrcSocial.css">
+
+    <script type="text/javascript" src="Script/titleScreen.js"></script>
+    <script type="text/javascript" src="Script/menu.js"></script>
+    <script type="text/javascript" src="Script/glassEffect.js"></script>
+    <script type="text/javascript" src="Script/card.js"></script>
+    <script type="text/javascript" src="Script/onScroll.js"></script>
+    <script type="text/javascript" src="Script/footer.js"></script>
+    <script type="text/javascript" src="Script/scrollToTop.js"></script>
+
+  </head>
+  <body id="body" onload="loadGlass()">
+
+    <nav id="top_navigation">
+
+      <a href="index.html"><img class="top_logo" src="Resurces/Images/Logos/logo.png"></a>
+
+      <ul class="desktop_menu">
+
+        <li class"desktop_menu_item"><a href="index.html">Home</a></li>
+
+        <li class"desktop_menu_item">
+          <a href="#">What we do</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+            <li id="internal_dropdown_menu_show_button" class"desktop_menu_item">
+              <a href="index.html#advisory_hub">Advisory Hub</a>
+              <img src="Resurces\Icons\right.png">
+
+              <ul class="internal_dropdown_menu">
+                <li class"internal_desktop_menu_item"><a href="index.html#startup">STARTUP & SCALEUP COMPANIES</a></li>
+                <li class"internal_desktop_menu_item"><a href="index.html#grownup">GROWN-UP COMPANIES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li id="double_dropdown_menu_show_button" class"desktop_menu_item">
+          <a href="businessSimulations.html#all_industries_card">Industries</a>
+
+          <ul class="double_dropdown_menu">
+
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="it.html">IT</a></li>
+            <li><a href="health.html">Health</a></li>
+            <li><a href="managementConsultancy.html">Management Consultancy</a></li>
+            <li><a href="retail.html">Retail</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="tourism.html">Tourism</a></li>
+
+            <!--<ul class="double_dropdown_menu_right">
+              <li><a href="#">Manifacturing</a></li
+            </ul>-->
+
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="#">Capabilities</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+            <li class"desktop_menu_item"><a target="_blank" href="http://businesshubs.eu">Business Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+
+      </ul>
+
+      <ul class="mobile_menu">
+        <button class="open_menu_button"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), openMenu()"
+                aria-label="Main Menu">
+          <svg width="6vh" height="6vh" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331
+                                        94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,
+                                        74.999942 75.000211,74.999942 L 25.000021,25.000058"/>
+
+            <path class="line line2" d="M 20,50 H 80"/>
+
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669
+                                        94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,
+                                        25.000058 75.000211,25.000058 L 25.000021,74.999942"/>
+          </svg>
+        </button>
+      </ul>
+
+    </nav>
+
+    <header id="top_screen">
+
+      <span class="big_circle"></span>
+
+      <span class="middle_circle"></span>
+
+      <span class="small_circle"></span>
+
+      <section class="title_container">
+
+        <div>
+          <h1 class="main_title"></h1>
+
+          <span class="title_line"></span>
+
+          <h3 class="subtitle"></h3>
+        </div>
+
+      </section>
+
+    </header>
+
+    <header id="mobile_menu">
+
+      <section id="main_mobile_menu_container">
+
+        <ul>
+          <li class="mobile_menu_item"><a href="index.html" onclick="openMenu()">Home</a></li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward()">
+            <a href="#">What we do<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward3()">
+            <a href="#">Industries<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward4()">
+            <a href="#">Capabilities<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+        </ul>
+
+      </section>
+
+      <section id="mobile_menu_container_2">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuForward2()">
+            <a href="#">Advisitory hub<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_3">
+        <ul>
+          <li style="height: 120px;" class"mobile_menu_item"><a href="index.html#startup" onclick="openMenu()">STARTUP & SCALEUP<br>COMPANIES</a></li>
+          <li class"mobile_menu_item"><a href="index.html#grownup" onclick="openMenu()">GROWN-UP COMPANIES</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack2()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></i></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_4">
+        <ul>
+          <li class"mobile_menu_item"><a href="construction.html">Construction</a></li>
+          <li class"mobile_menu_item"><a href="health.html">Health</a></li>
+          <li class"mobile_menu_item"><a href="it.html">IT</a></li>
+          <li class"mobile_menu_item"><a href="managementConsultancy.html">Management Consultancy</a></li>
+          <li class"mobile_menu_item"><a href="retail.html">Retail</a></li>
+          <li class"mobile_menu_item"><a href="social.html">Social</a></li>
+          <li class"mobile_menu_item"><a href="tourism.html">Tourism</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack3()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_5">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+          <li class"mobile_menu_item"><a target="_blank" href="https://businesshubs.eu" onclick="openMenu()">Business Hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack4()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+    </header>
+
+    <section class="main_container" id="main_text">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Business Case:</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">Social</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div class="two_col">
+        <p class="paragraph">
+          The consultancy project comprises the run of a Feasibility Study Phase to identify the need of getting started a Center of Influence, plus, its prospective
+          partners and competitors.The project got commenced beginning of November, 2017. The commissioned Feasibility Study Phase of the project got completed on 01/05/2018.
+        </p>
+
+        <p class="paragraph">
+          &emsp;1. Drives for undertaking this Project<br>
+          Much in contrast to other consultancy projects which got started by reason of existing major troubles aiming at their  handling and overcoming, this consultancy project
+          got started with the view to expand the performance of the organization. Said another way, the organization has delivered a good performance what has driven its plans to
+          expand.<br>
+          The consultancy project aims at identifying the exact activities which are to be involved as an expansion of the services portfolio of the organization. Given the social
+          focus of the organization, the new undertakings have to come as:
+        </p>
+
+        <p class="paragraph">
+          &emsp;&emsp;•	Complementary to the social activities thus far performed by Plovdiv municipality. <br>
+          &emsp;&emsp;•	Bearing social import, i.e. they are to handle real problems of actually existing vulnerable groups[1] amidst the population of Plovdiv city.
+        </p>
+
+        <p class="paragraph">
+          The following activities got involved in the run of the a.m. three phases:
+        </p>
+
+        <p class="paragraph">
+          &emsp;1. Conducting focus groups of volunteers to get involved in the Center of  Influence. <br>
+          &emsp;2. Conducting semi-structured interviews with representatives of the Social Policy Department with Plovdiv municipality; directors of secondary schools and kindergartens;
+          former directors of secondary schools; high school teachers. <br>
+          &emsp;3. Identifying and producing a profile for all presumable vulnerable groups in Plovdiv city <br>
+          &emsp;4. Figuring out the most urgent needs of the groups identified under clause 3. <br>
+          &emsp;5. Identifying proper activities aimed at meeting the needs under clause 4. <br>
+          &emsp;6. Initial setting of priorities given the urgency to supply requisite resources. <br>
+          &emsp;7. Filing the dossier needed to proceed with the next stage – Business planning and application for the grant of finance.
+        </p>
+
+        <p class="paragraph">
+          <br>
+          [1] “Says the white book of effective support delivering social services, vulnerable are such persons and groups of people who suffer certain limitations of
+          their involvement in the social life and the use of social rights.<br>
+          The vulnerable groups fail of gaining access or benefiting from the opportunities supplied by the society and the economics, and fall victims or in a condition
+          where they run the risk of getting marginalized or socially cast out.”<br>
+          Source: Social services development strategy for 2016 – 2020, approved by Plovdiv Municipal Council, 26/05/2016
+        </p>
+
+      </div>
+
+    </section>
+
+    <section class="main_container" id="image_and_video">
+
+      <div class="blur_container">
+
+        <div class="blur_container">
+
+          <div class="media_card">
+            <div class="content">
+              <h2>Impact Ventures</h2>
+
+              <aside class="right_pannel">
+                <h3 style="font-size: 2.5">Impact Ventures Mapping Report 2020</h3>
+
+                <p>
+                  BULGARIA: Impact Ventures Mapping Report 2020 is the first and only analytical information on how Bulgaria performs along 17 SDGs UN 2030. This is the only overview based on
+                  data about all Bulgarian impact ventures. The country performance is based on type of startup & scaleup companies in the domain, and CSR projects
+                </p>
+              </aside>
+
+              <aside class="left_pannel">
+                <img src="Resurces\Images\Tech Hubs\Original FHD\Impact Ventures.jpg">
+              </aside>
+
+            </div>
+          </div>
+        </div>
+
+        <a href="http://impactventures.today/"><div class="btn from-top">Read More</div></a>
+
+        <div class="blur_container">
+
+          <div class="media_card">
+            <div class="content">
+              <h2>Social</h2>
+
+              <h3 style="font-size: 1.5">Impact Ventures Mapping Report</h3>
+
+              <aside class="left_pannel">
+                <iframe class="video_iframe"
+                  src="https://www.youtube.com/embed/1bA2y4XCX6g"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+
+                <p style="text-align: center">
+                  Official Presentation on Results of BULGARIA: Impact Ventures Mapping Report 2020. In this video you will get information on the sources of the
+                  Report and which companies are classified as impact ventures
+                </p>
+              </aside>
+
+              <aside class="right_pannel">
+                <iframe class="video_iframe"
+                  src="https://www.youtube.com/embed/Kh_6kpqMkAU"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+
+                <p style="text-align: center">
+                  Official Presentation of Results of BULGARIA: Impact Ventures Mapping Report 04 02 2020 | Sofia <br>
+                  In this video you will get information on impact ventures' business models and exemplary companies in Bulgaria.
+                </p>
+              </aside>
+
+            </div>
+          </div>
+
+        </div>
+
+      <img class="container_break_180 after_btn" src="Resurces\Images\Container Breaks\PNG\5.png">
+
+    </section>
+
+    <section class="main_container" id="recomendations">
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">You might</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">also be</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">interested in:</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div class="blur_container">
+
+        <div class="card">
+          <div class="content">
+            <h2>01</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 4em">Retail</h3>
+            <a href="retail.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\3.jpg">
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>02</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 5em">IT</h3>
+            <a href="it.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\2.jpg">
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>03</h2>
+            <h3 style="font-size: 2.5em">Business Case</h3>
+            <span class="container_title_line"></span>
+            <h3 style="font-size: 4em">Health</h3>
+            <br>
+            <a href="health.html">Learn More</a>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Business Cases\1.jpg">
+        </div>
+
+      </div>
+
+      <div class="btn from-top">View All</div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="blur_container">
+
+        <div class="full_width_card" id="main_footer_container">
+          <div class="content">
+            <!--<img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">-->
+            <h2></h2>
+            <h3 class="revealOnScroll" data-animation="bounceIn"></h3>
+
+            <section id="left">
+              <a href=""><img id="footer_logo" src="Resurces/Images/Logos/logo.png"></a>
+              <p id="year">© 2016 - 2022 Strategy+ Business Lab</p>
+              <p>All Rights Reserved!</p>
+
+              <h4>Contact Us</h4>
+
+              <a id="contact_us" href="mailto: hello@spbusinesslab.com">hello@spbusinesslab.com</a>
+            </section>
+
+            <section id="middle">
+              <h4 id="follow_us">Follow Us</h4>
+
+              <ul id="contacts_list">
+                <li class="contacts_list_item">
+                  <p>Strategy+ Business Lab</p>
+                  <a target="_blank" href="https://www.youtube.com/channel/UC0n_8hJ_opqCj5EBXItahaA/videos" style="background-color: #9933ff"><img src="Resurces\Icons\youtube_w.png"></a>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #d966ff"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/spbusinesslab" style="background-color: #ff66ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PrEXCELator Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #8000ff;background-color: "><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/PrEXCELerator" style="background-color: #cc33ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/prexcelerator_bulgaria/" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PropTech Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/proptech-bulgaria/" style="background-color: #6600cc"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/proptechbulgaria" style="background-color: #bf00ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/proptech_bulgaria/?hl=af" style="background-color: #ff33cc"><img src="Resurces\Icons\instagram_w.png"></a>
+                  <a target="_blank" href="https://twitter.com/proptech_bg" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+              </ul>
+
+            </section>
+
+            <section id="right">
+              <ul>
+                <li><a target="_blank" href="http://proptechbulgaria.eu/">PropTech</a></li>
+                <li><a target="_blank" href="http://impactventures.today/">Impact Ventures</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/healthtech-hub/">HealthTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/2020-bulgaria-tourism-tech-mapping-report/">Tourism Tech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/edutech-market-in-bulgaria/">EduTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/industry-analyses/">FoodTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/blog/2020/12/10/fashion-tech-post/">FashionTech</a></li>
+              </ul>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="blur_container">
+
+        <div class="full_width_card" id="developed_by_container">
+          <p id="developed_by">Developed By Simeon Kondov</p>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <a href="#" id="scroll_to_top_button"><img src="Resurces\Icons\to-top.png" width="60px"></a>
+
+  </body>
+</html>

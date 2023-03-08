@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Business Simulations | Strategy+ Business Lab</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Simeon Kondov, simeonkondov2@gmial.com">
+
+    <link rel="icon" href="Resurces/Images/Logos/logo200x200.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="Style/deskNav.css">
+    <link rel="stylesheet" href="Style/titleScreen.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/menuBurger.css">
+    <link rel="stylesheet" href="Style/mobileMenu.css">
+    <link rel="stylesheet" href="Style/titles.css">
+    <link rel="stylesheet" href="Style/card.css">
+    <link rel="stylesheet" href="Style/verticalMenu.css">
+    <link rel="stylesheet" href="Style/onScroll.css">
+    <link rel="stylesheet" href="Style/fullWidthGlassCard.css">
+    <link rel="stylesheet" href="Style/paragraphs.css">
+    <link rel="stylesheet" href="Style/containers.css">
+    <link rel="stylesheet" href="Style/buttons.css">
+    <link rel="stylesheet" href="Style/horisontalCard.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <link rel="stylesheet" href="Style/scrollToTopButton.css">
+    <link rel="stylesheet" href="Style/scrollbar.css">
+    <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="stylesheet" href="Style/counter.css">
+    <link rel="stylesheet" href="Style/logoSlider.css">
+    <link rel="stylesheet" href="Style/industries.css">
+    <link rel="stylesheet" href="Style/customHeightCard.css">
+    <link rel="stylesheet" href="Style/brands.css">
+    <link rel="stylesheet" href="Style/bussinesCases.css">
+    <link rel="stylesheet" href="Style/media_card.css">
+    <link rel="stylesheet" href="Style/mainTitle.css">
+    <link rel="stylesheet" href="Style/backgroundsSrcBS.css">
+    <link rel="stylesheet" href="Style/titlesSrcBS.css">
+
+    <script type="text/javascript" src="Script/titleScreen.js"></script>
+    <script type="text/javascript" src="Script/menu.js"></script>
+    <script type="text/javascript" src="Script/glassEffect.js"></script>
+    <script type="text/javascript" src="Script/card.js"></script>
+    <script type="text/javascript" src="Script/onScroll.js"></script>
+    <script type="text/javascript" src="Script/footer.js"></script>
+    <script type="text/javascript" src="Script/scrollToTop.js"></script>
+    <script type="text/javascript" src="Script/counter.js"></script>
+    <script type="text/javascript" src="Script/logo_slider.js"></script>
+
+  </head>
+  <body id="body" onload="loadGlass()">
+
+    <nav id="top_navigation">
+
+      <a href="index.html"><img class="top_logo" src="Resurces/Images/Logos/logo.png"></a>
+
+      <ul class="desktop_menu">
+
+        <li class"desktop_menu_item"><a href="index.html">Home</a></li>
+
+        <li class"desktop_menu_item">
+          <a href="#">What we do</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+            <li id="internal_dropdown_menu_show_button" class"desktop_menu_item">
+              <a href="index.html#advisory_hub">Advisory Hub</a>
+              <img src="Resurces\Icons\right.png">
+
+              <ul class="internal_dropdown_menu">
+                <li class"internal_desktop_menu_item"><a href="index.html#startup">STARTUP & SCALEUP COMPANIES</a></li>
+                <li class"internal_desktop_menu_item"><a href="index.html#grownup">GROWN-UP COMPANIES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li id="double_dropdown_menu_show_button" class"desktop_menu_item">
+          <a href="businessSimulations.html#all_industries_card">Industries</a>
+
+          <ul class="double_dropdown_menu">
+
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="it.html">IT</a></li>
+            <li><a href="health.html">Health</a></li>
+            <li><a href="managementConsultancy.html">Management Consultancy</a></li>
+            <li><a href="retail.html">Retail</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="tourism.html">Tourism</a></li>
+
+            <!--<ul class="double_dropdown_menu_right">
+              <li><a href="#">Manifacturing</a></li
+            </ul>-->
+
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="#">Capabilities</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+            <li class"desktop_menu_item"><a target="_blank" href="http://businesshubs.eu">Business Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+
+      </ul>
+
+      <ul class="mobile_menu">
+        <button class="open_menu_button"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), openMenu()"
+                aria-label="Main Menu">
+          <svg width="6vh" height="6vh" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331
+                                        94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,
+                                        74.999942 75.000211,74.999942 L 25.000021,25.000058"/>
+
+            <path class="line line2" d="M 20,50 H 80"/>
+
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669
+                                        94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,
+                                        25.000058 75.000211,25.000058 L 25.000021,74.999942"/>
+          </svg>
+        </button>
+      </ul>
+
+    </nav>
+
+    <header id="top_screen">
+
+      <span class="big_circle"></span>
+
+      <span class="middle_circle"></span>
+
+      <span class="small_circle"></span>
+
+      <section class="title_container">
+
+        <div>
+          <h1 class="main_title"></h1>
+
+          <span class="title_line"></span>
+
+          <h3 class="subtitle"></h3>
+        </div>
+
+      </section>
+
+    </header>
+
+    <header id="mobile_menu">
+
+      <section id="main_mobile_menu_container">
+
+        <ul>
+          <li class="mobile_menu_item"><a href="index.html" onclick="openMenu()">Home</a></li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward()">
+            <a href="#">What we do<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward3()">
+            <a href="#">Industries<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward4()">
+            <a href="#">Capabilities<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+        </ul>
+
+      </section>
+
+      <section id="mobile_menu_container_2">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuForward2()">
+            <a href="#">Advisitory hub<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_3">
+        <ul>
+          <li style="height: 120px;" class"mobile_menu_item"><a href="index.html#startup" onclick="openMenu()">STARTUP & SCALEUP<br>COMPANIES</a></li>
+          <li class"mobile_menu_item"><a href="index.html#grownup" onclick="openMenu()">GROWN-UP COMPANIES</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack2()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></i></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_4">
+        <ul>
+          <li class"mobile_menu_item"><a href="construction.html">Construction</a></li>
+          <li class"mobile_menu_item"><a href="health.html">Health</a></li>
+          <li class"mobile_menu_item"><a href="it.html">IT</a></li>
+          <li class"mobile_menu_item"><a href="managementConsultancy.html">Management Consultancy</a></li>
+          <li class"mobile_menu_item"><a href="retail.html">Retail</a></li>
+          <li class"mobile_menu_item"><a href="social.html">Social</a></li>
+          <li class"mobile_menu_item"><a href="tourism.html">Tourism</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack3()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_5">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+          <li class"mobile_menu_item"><a target="_blank" href="https://businesshubs.eu" onclick="openMenu()">Business Hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack4()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+    </header>
+
+    <section class="main_container" id="parameters">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Business</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">Simulations</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+        <div id="counter">
+
+          <h2 class="second_title">We cover:</h2>
+
+          <span class="first_two_items">
+            <div class="item">
+              <svg width="20vh" height="20vh" xmlns="http://www.w3.org/2000/svg">
+                <circle class="circle_animation" r="69.8" cy="81" cx="81" stroke-width="8" stroke="#00ffaa" fill="none"/>
+                <h2 class="counter_value" style="color: #00ffaa" data-count="15">0</h2>
+              </svg>
+
+              <div class="counter_label">
+                Included Industries
+              </div>
+            </div>
+
+            <div class="item">
+              <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                <circle class="circle_animation" r="69.8" cy="81" cx="81" stroke-width="8" stroke="#a6ff4d" fill="none"/>
+                <h2 class="counter_value" style="color: #a6ff4d" data-count="100">0</h2>
+              </svg>
+
+              <div class="counter_label">
+                Business Cases
+              </div>
+            </div>
+          </span>
+
+          <div class="item">
+            <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+              <circle class="circle_animation" r="69.8" cy="81" cx="81" stroke-width="8" stroke="#ccff66" fill="none"/>
+              <h2 class="counter_value" style="color: #ccff66" data-count="50">0</h2>
+            </svg>
+
+            <div class="counter_label">
+              Corporate Brands
+            </div>
+          </div>
+
+          <div class="item">
+            <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+              <circle class="circle_animation" r="69.8" cy="81" cx="81" stroke-width="8" stroke="#ffff00" fill="none"/>
+              <h2 class="counter_value" style="color: #ffff00" data-count="40">0</h2>
+            </svg>
+
+            <div class="counter_label">
+              Functional Aspects
+            </div>
+          </div>
+
+          <img class="container_break after_text" src="Resurces\Images\Container Breaks\PNG\2.png">
+
+        </div>
+
+        <div id="shcools">
+
+          <h2 class="second_title">We apply case studies and analytical tools of the following business schools:</h2>
+
+          <div id="logo_gallery">
+            <span id="logos_container_1">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Berkeley.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\City university of London.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Harvard.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Iese.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Insead.png">
+            </span>
+
+            <span id="logos_container_2">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Ivey.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Managment Sloan school.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Open university of Hong Kong.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Starford.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\The open university.png">
+            </span>
+
+            <span id="logos_container_3">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\Thunderbird.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\UCD Dublin.png">
+              <img class="logo_gallery_img" src="Resurces\Images\Business Schools\University of Limerick.png">
+            </span>
+          </div>
+
+        </div>
+
+    </section>
+
+    <section class="main_container" id="why">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Why?</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <p class="paragraph">
+        Business simulations give real-life experience to participants. Our business track sets the perfect stage for analyzing the business
+        development of over 50 corporate brands in 14 industries. The essence of the process is to begin with a real and complex situation,
+        glean the essential from it, get valuable insight into industry dynamics, analyze companies which might be a partner or a competitor
+        of yours.
+      </p>
+
+      <p class="paragraph">
+        As a result from a business simulation, participans know:
+      </p>
+
+      <ul>
+        <li class="paragraph list_item"><img src="Resurces\Icons\checked.png">How a certain company has made decisions</li>
+        <li class="paragraph list_item"><img src="Resurces\Icons\checked.png">What the consequences and respective results were</li>
+        <li class="paragraph list_item"><img src="Resurces\Icons\checked.png">How we can learn from their failures or success</li>
+      </ul>
+
+      <br>
+
+      <p class="paragraph">
+        Participants learn from their own experience how to apply complex managerial decisions-marking techniques on over 40 functional aspects.
+      </p>
+
+      <p class="paragraph">
+        Furthermore, all our business simulations naturally and by default encourage teamwork. All of them are an ideal tool to foster collaboration in
+        troublesome teams.
+      </p>
+
+      <p class="paragraph">
+        Simulations allow participants to study a market and its players, allow them to take strategic or operational actions and get acquainted with
+        the results.
+      </p>
+
+      <p class="paragraph">
+        There is no better teacher than real life, and our business simulations are the right setting for gaining real life business experience in a
+        safe environment.
+      </p>
+
+      <img class="container_break_180 after_text" src="Resurces\Images\Container Breaks\PNG\5.png">
+
+    </section>
+
+    <section class="main_container" id="simulations">
+
+      <div class="blur_container">
+
+        <div class="card horisontal_card" id="all_industries_card" style="margin-top: 20px">
+          <div class="content">
+            <h2>General</h2>
+            <h3>All<br>Industries</h3>
+
+            <ul style="display: none">
+              <li><img src="Resurces\Icons\right_arrows.png" width="12px">
+                Startups - Entrepreneurship
+                <ol>
+                  <li> Idea Generation</li>
+                  <li> Validation</li>
+                  <li> Operation of BU</li>
+                </ol>
+              </li>
+              <li><img src="Resurces\Icons\right_arrows.png"></i>Negotiations & Influence</li>
+              <li><img src="Resurces\Icons\right_arrows.png"></i>Power & Politics</li>
+              <li><img src="Resurces\Icons\right_arrows.png"></i>Decision-making & Behavioral Economics</li>
+              <li><img src="Resurces\Icons\right_arrows.png"></i>Finance-Fundamentals</li>
+              <li><img src="Resurces\Icons\right_arrows.png"></i>Intrapreneurship- Commercializing Corporate Innovations</li>
+            </ul>
+          </div>
+          <img class="card_background_image after_btn" src="Resurces\Images\Business Simulations\4.jpg">
+        </div>
+
+      </div>
+
+      <div class="blur_container" id="three_col_card_container">
+
+        <section id="section_1">
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Automotive</h2>
+              <h3 style="font-size: 4em">Automotive</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Suppy Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Operationsal Managment</li>
+                <li><img src="Resurces\Icons\right_arrows.png">M&A</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Strategic Options</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Competitive Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Startups</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Technology</li>
+              </ul>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci2.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Chemical</h2>
+              <h3>Chemical</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Managment of Innovations</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+              </ul>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci7.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Construction</h2>
+              <h3 style="font-size: 3.5em">Construction</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">M&A</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Strategy<br>&emsp;International Expansion</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development<br>&emsp;Market Segmentation</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finanace - Fundamentals</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+                <li><img src="Resurces\Icons\right_arrows.png">HR Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Manucfacturing</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Business Models</li>
+              </ul>
+
+              <a href="construction.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci6.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Financial</h2>
+              <h3>Financial</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development<br>&emsp;Market Segmentation</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Profit Generation</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Technology</li>
+              </ul>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci3.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+              <div class="content">
+                <h2>FMCG</h2>
+                <h3>FMCG</h3>
+
+                <ul>
+                  <li><img src="Resurces\Icons\right_arrows.png">M&A</li>
+                  <li><img src="Resurces\Icons\right_arrows.png">International Strategy</li>
+                  <li><img src="Resurces\Icons\right_arrows.png">Market Development<br>&emsp;Market Segmentation</li>
+                  <li><img src="Resurces\Icons\right_arrows.png">Competitive Strategy</li>
+                  <li><img src="Resurces\Icons\right_arrows.png">Stakeholder Management</li>
+                  <li><img src="Resurces\Icons\right_arrows.png">Family Business</li>
+                  <li><img src="Resurces\Icons\right_arrows.png">Startups - Crowdsourcing as a <br>&emsp;Marketing Tactics for New Product <br>&emsp;Development</li>
+                  <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+                </ul>
+              </div>
+              <img class="card_background_image" src="Resurces\Images\Business Simulations\ci1.jpg">
+            </div>
+        </section>
+
+        <section id="section_2">
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Health</h2>
+              <h3>Health</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Operational Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Stakeholder Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+                <li><img src="Resurces\Icons\right_arrows.png">HR Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Business Models</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Leadership</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Expansion</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Competitive Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Product Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Technology</li>
+              </ul>
+
+              <a href="health.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci5.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>&nbsp;&nbsp;IT</h2>
+              <h3 style="font-size: 5.5em">IT</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Operational Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Enviromental Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Strategy<br>&emsp;International Expansion</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development<br>&emsp;Generic Strategies<br>&emsp;Market Segmentation<br>&emsp;Judo Strategies</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Platforms</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Strategic Options</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Pithing before Investors</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Industry Standards</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Startups</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Profit Generation</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Manufacturing</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Corporate Parenting<br>&emsp;BU Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Key Account Mngt (KAM)</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Outsorcing</li>
+                <li><img src="Resurces\Icons\right_arrows.png">M&A</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Business Models</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Product Management</li>
+              </ul>
+
+              <a href="it.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci2.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Tourism</h2>
+              <h3>Tourism</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Competitive Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Product Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+              </ul>
+
+              <a href="tourism.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci3.jpg">
+          </div>
+        </section>
+
+        <section id="section_3">
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Management Consultancy</h2>
+              <h3 style="font-size: 3.5em">Management<br>Consultancy</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Business Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Expansion</li>
+              </ul>
+
+              <a href="managementConsultancy.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci6.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Management Consultancy</h2>
+              <h3 style="font-size: 3.5em">Management<br>Consultancy</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Business Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Expansion</li>
+              </ul>
+
+              <a href="managementConsultancy.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci6.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Manufacturing</h2>
+              <h3 style="font-size: 3.5em">Manufacturing</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Operational Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Innovation Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">M&A</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Quality Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Strategy<br>&emsp;International Expansion</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Digital Transformation</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Knowledge Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Platforms</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+              </ul>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci3.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Media</h2>
+              <h3>Media</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">M&A</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Strategy<br>&emsp;International Expansion</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Strategic Options</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance Performance</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finanace - Fundamentals</li>
+              </ul>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci4.jpg">
+          </div>
+
+        </section>
+
+        <section id="section_4">
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Mobile</h2>
+              <h3>Mobile</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Platforms</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Product Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Intellectual Property</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finanace - Fundamentals</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Digital Transformation</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Expansion</li>
+              </ul>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci5.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Phaceuticals</h2>
+              <h3 style="font-size: 4em">Phaceuticals</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Operational Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Scenario Planning</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Market Development<br>&emsp;Market Segmentation</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Competitive Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Stakeholder Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">HR Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Product Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Brand Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+              </ul>
+
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci2.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Retail</h2>
+              <h3>Retail</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Supply Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Operational Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Value Chain</li>
+                <li><img src="Resurces\Icons\right_arrows.png">International Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Competitive Strategy</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Structure</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Manufacturing</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Finance - Fundamentals</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Product Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Brand Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Business Models</li>
+              </ul>
+
+              <a href="retail.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci2.jpg">
+          </div>
+
+          <div class="card" style="height: fit-content">
+            <div class="content">
+              <h2>Social</h2>
+              <h3>Social</h3>
+
+              <ul>
+                <li><img src="Resurces\Icons\right_arrows.png">Stakeholder Management</li>
+                <li><img src="Resurces\Icons\right_arrows.png">Business Modelling</li>
+              </ul>
+
+              <a href="social.html">Learn More</a>
+            </div>
+            <img class="card_background_image" src="Resurces\Images\Business Simulations\ci7.jpg">
+          </div>
+        </section>
+
+
+      </div>
+
+      <img class="container_break_180" src="Resurces\Images\Container Breaks\PNG\8.png">
+
+    </section>
+
+    <section class="main_container" id="videos">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Watch</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">Snapshots</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div class="blur_container">
+
+            <div class="media_card">
+              <div class="content">
+                <h2>01</h2>
+
+                <aside class="left_pannel">
+                  <h3>JUDO Strategies Video</h3>
+                  <p>
+                    'Judo depends for success upon the skill of using an opponent’s own weight and strength against him, thus enabling a weak or light
+                    individual to overcome a superior opponent.'<br>
+                    This video is a showcase of the JUDO Strategies for Startups' Market Entry seminar/webinar.
+                  </p>
+                </aside>
+
+                <aside class="right_pannel">
+                  <iframe class="video_iframe" src="https://www.youtube.com/embed/K7wEDXxEWZ0" allowfullscreen></iframe>
+                </aside>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="blur_container">
+
+            <div class="media_card">
+              <div class="content">
+                <h2>02</h2>
+
+                <aside class="right_pannel">
+                  <h3>Negotiations in the IT Industry</h3>
+                  <p>
+                    This video is part of a recent workshop on Negotiations in the IT Industry which took place on 22/05/2020.
+                    The video depicts which is the break-it-or-make-it factor in negotiations and business relations.
+                  </p>
+                </aside>
+
+                <aside class="left_pannel">
+                  <iframe class="video_iframe"
+                    src="https://www.youtube.com/embed/A5iOhC800sc"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </aside>
+
+              </div>
+            </div>
+
+          </div>
+
+      <img class="container_break" src="Resurces\Images\Container Breaks\PNG\8.png">
+    </section>
+
+    <section class="main_container" id="brands">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">our business</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">cases cover</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div id="brands_logos_container">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\1.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\2.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\3.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\4.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\5.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\6.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\7.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\8.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\9.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\10.png">
+
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\11.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\12.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\13.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\14.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\15.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\16.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\17.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\18.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\19.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\20.png">
+
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\21.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\22.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\23.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\24.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\25.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\26.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\28.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\29.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\30.png">
+
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\31.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\32.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\33.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\34.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\35.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\36.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\37.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\38.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\39.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\40.png">
+
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\41.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\42.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\43.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\44.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\45.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\46.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\47.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\48.png">
+        <img class="brand_logo" src="Resurces\Images\Brand Logo\49.png">
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="blur_container">
+
+        <div class="full_width_card" id="main_footer_container">
+          <div class="content">
+            <!--<img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">-->
+            <h2></h2>
+            <h3 class="revealOnScroll" data-animation="bounceIn"></h3>
+
+            <section id="left">
+              <a href=""><img id="footer_logo" src="Resurces/Images/Logos/logo.png"></a>
+              <p id="year">© 2016 - 2022 Strategy+ Business Lab</p>
+              <p>All Rights Reserved!</p>
+
+              <h4>Contact Us</h4>
+
+              <a id="contact_us" href="mailto: hello@spbusinesslab.com">hello@spbusinesslab.com</a>
+            </section>
+
+            <section id="middle">
+              <h4 id="follow_us">Follow Us</h4>
+
+              <ul id="contacts_list">
+                <li class="contacts_list_item">
+                  <p>Strategy+ Business Lab</p>
+                  <a target="_blank" href="https://www.youtube.com/channel/UC0n_8hJ_opqCj5EBXItahaA/videos" style="background-color: #9933ff"><img src="Resurces\Icons\youtube_w.png"></a>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #d966ff"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/spbusinesslab" style="background-color: #ff66ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PrEXCELator Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #8000ff;background-color: "><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/PrEXCELerator" style="background-color: #cc33ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/prexcelerator_bulgaria/" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PropTech Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/proptech-bulgaria/" style="background-color: #6600cc"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/proptechbulgaria" style="background-color: #bf00ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/proptech_bulgaria/?hl=af" style="background-color: #ff33cc"><img src="Resurces\Icons\instagram_w.png"></a>
+                  <a target="_blank" href="https://twitter.com/proptech_bg" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+              </ul>
+
+            </section>
+
+            <section id="right">
+              <ul>
+                <li><a target="_blank" href="http://proptechbulgaria.eu/">PropTech</a></li>
+                <li><a target="_blank" href="http://impactventures.today/">Impact Ventures</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/healthtech-hub/">HealthTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/2020-bulgaria-tourism-tech-mapping-report/">Tourism Tech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/edutech-market-in-bulgaria/">EduTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/industry-analyses/">FoodTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/blog/2020/12/10/fashion-tech-post/">FashionTech</a></li>
+              </ul>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="blur_container">
+
+        <div class="full_width_card" id="developed_by_container">
+          <p id="developed_by">Developed By Simeon Kondov</p>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <a href="#" id="scroll_to_top_button"><img src="Resurces\Icons\to-top.png" width="60px"></a>
+
+  </body>
+</html>

@@ -1,0 +1,60 @@
+svg {
+    transform: rotate(-90deg);
+}
+
+.item {
+  display: inline-block !important;
+  width: 160px;
+  position: relative;
+  user-select: none;
+  margin: 0 40px;
+  transition: 0.5s;
+  overflow: hidden !important;
+}
+
+.item:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.counter_value {
+  margin: -120px 0 0 5px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.counter_value::after {
+  content: "+";
+}
+
+.counter_label {
+  margin-top: 80px;
+  font-size: calc(1.2vh + .1vw + 5px);
+}
+
+
+.circle_animation {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.item .circle_animation {
+    animation: circle 3s ease-out forwards;
+}
+
+@-webkit-keyframes circle {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes circle {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .first_two_items {
+    display: block;
+  }
+}

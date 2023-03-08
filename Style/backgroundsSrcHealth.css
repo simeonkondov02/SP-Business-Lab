@@ -1,0 +1,26 @@
+.big_circle {
+  background-image: url("Resurces/Images/Title Backgrounds/Health/1.jpg");
+  animation: big_circle 5s infinite,
+             change_background 10s infinite;
+}
+
+.middle_circle {
+  background-image: url("Resurces/Images/Title Backgrounds/Health/1.jpg");
+  animation: middle_circle 5s infinite,
+             change_background 10s infinite;
+}
+
+.small_circle {
+  background-image: url("Resurces/Images/Title Backgrounds/Health/1.jpg");
+  animation: small_circle 5s infinite,
+             change_background 10s infinite;
+}
+
+@keyframes change_background {
+  0%, 47.5% {
+    background-image: url("../Resurces/Images/Title Backgrounds/Health/1.jpg");
+  }
+  50%, 97.5% {
+    background-image: url("../Resurces/Images/Title Backgrounds/Health/2.jpg");
+  }
+}

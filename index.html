@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Stretegy+ Business Lab | Home</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="SP Business Lab, Strategy+ Buiness Lab, SP Biz Lab">
+    <meta name="author" content="Simeon Kondov, simeonkondov2@gmial.com">
+
+    <link rel="icon" href="Resurces/Images/Logos/logo200x200.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="Style/deskNav.css">
+    <link rel="stylesheet" href="Style/titleScreen.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/menuBurger.css">
+    <link rel="stylesheet" href="Style/mobileMenu.css">
+    <link rel="stylesheet" href="Style/titles.css">
+    <link rel="stylesheet" href="Style/card.css">
+    <link rel="stylesheet" href="Style/verticalMenu.css">
+    <link rel="stylesheet" href="Style/onScroll.css">
+    <link rel="stylesheet" href="Style/fullWidthGlassCard.css">
+    <link rel="stylesheet" href="Style/paragraphs.css">
+    <link rel="stylesheet" href="Style/containers.css">
+    <link rel="stylesheet" href="Style/buttons.css">
+    <link rel="stylesheet" href="Style/horisontalCard.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <link rel="stylesheet" href="Style/scrollToTopButton.css">
+    <link rel="stylesheet" href="Style/scrollbar.css">
+    <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="stylesheet" href="Style/bussinesCases.css">
+    <link rel="stylesheet" href="Style/media_card.css">
+    <link rel="stylesheet" href="Style/homeTitleAnimation.css">
+    <link rel="stylesheet" href="Style/mainTitle.css">
+    <link rel="stylesheet" href="Style/backgroundsSrcIndex.css">
+    <link rel="stylesheet" href="Style/titlesSrcIndex.css">
+    <link rel="stylesheet" href="Style/videos.css">
+
+    <script type="text/javascript" src="Script/titleScreen.js"></script>
+    <script type="text/javascript" src="Script/menu.js"></script>
+    <script type="text/javascript" src="Script/glassEffect.js"></script>
+    <script type="text/javascript" src="Script/card.js"></script>
+    <script type="text/javascript" src="Script/onScroll.js"></script>
+    <script type="text/javascript" src="Script/footer.js"></script>
+    <script type="text/javascript" src="Script/scrollToTop.js"></script>
+
+  </head>
+  <body id="body" onload="loadGlass(); calculateCurrentYear()">
+
+    <nav id="top_navigation">
+
+      <a href="index.html"><img class="top_logo" src="Resurces/Images/Logos/logo.png"></a>
+
+      <ul class="desktop_menu">
+
+        <li class"desktop_menu_item"><a href="index.html">Home</a></li>
+
+        <li class"desktop_menu_item">
+          <a href="#">What we do</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+            <li id="internal_dropdown_menu_show_button" class"desktop_menu_item">
+              <a href="index.html#advisory_hub">Advisory Hub</a>
+              <img src="Resurces\Icons\right.png">
+
+              <ul class="internal_dropdown_menu">
+                <li class"internal_desktop_menu_item"><a href="index.html#startup">STARTUP & SCALEUP COMPANIES</a></li>
+                <li class"internal_desktop_menu_item"><a href="index.html#grownup">GROWN-UP COMPANIES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li id="double_dropdown_menu_show_button" class"desktop_menu_item">
+          <a href="businessSimulations.html#all_industries_card">Industries</a>
+
+          <ul class="double_dropdown_menu">
+
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="it.html">IT</a></li>
+            <li><a href="health.html">Health</a></li>
+            <li><a href="managementConsultancy.html">Management Consultancy</a></li>
+            <li><a href="retail.html">Retail</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="tourism.html">Tourism</a></li>
+
+            <!--<ul class="double_dropdown_menu_right">
+              <li><a href="#">Manifacturing</a></li
+            </ul>-->
+
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="#">Capabilities</a>
+
+          <ul class="dropdown_menu">
+            <li class"desktop_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+            <li class"desktop_menu_item"><a target="_blank" href="http://businesshubs.eu">Business Hubs</a></li>
+            <li class"desktop_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          </ul>
+
+        </li>
+
+        <li class"desktop_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+
+      </ul>
+
+      <ul class="mobile_menu">
+        <button class="open_menu_button"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')), openMenu()"
+                aria-label="Main Menu">
+          <svg width="6vh" height="6vh" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331
+                                        94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,
+                                        74.999942 75.000211,74.999942 L 25.000021,25.000058"/>
+
+            <path class="line line2" d="M 20,50 H 80"/>
+
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669
+                                        94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,
+                                        25.000058 75.000211,25.000058 L 25.000021,74.999942"/>
+          </svg>
+        </button>
+      </ul>
+
+    </nav>
+
+    <header id="top_screen">
+
+      <span class="big_circle"></span>
+
+      <span class="middle_circle"></span>
+
+      <span class="small_circle"></span>
+
+      <section class="title_container">
+
+        <div>
+          <h1 class="main_title"></h1>
+
+          <span class="title_line"></span>
+
+          <h3 class="subtitle"></h3>
+        </div>
+
+      </section>
+
+    </header>
+
+    <header id="mobile_menu">
+
+      <section id="main_mobile_menu_container">
+
+        <ul>
+          <li class="mobile_menu_item"><a href="index.html" onclick="openMenu()">Home</a></li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward()">
+            <a href="#">What we do<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward3()">
+            <a href="#">Industries<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item" onclick="mobileMenuForward4()">
+            <a href="#">Capabilities<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+
+          <li class="mobile_menu_item"><a href="mailto: hello@spbusinesslab.com">Contact us</a></li>
+        </ul>
+
+      </section>
+
+      <section id="mobile_menu_container_2">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/tech-hubs/">Tech hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuForward2()">
+            <a href="#">Advisitory hub<img src="Resurces\Icons\right_w.png"></a>
+          </li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_3">
+        <ul>
+          <li style="height: 120px;" class"mobile_menu_item"><a href="index.html#startup" onclick="openMenu()">STARTUP & SCALEUP<br>COMPANIES</a></li>
+          <li class"mobile_menu_item"><a href="index.html#grownup" onclick="openMenu()">GROWN-UP COMPANIES</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack2()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></i></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_4">
+        <ul>
+          <li class"mobile_menu_item"><a href="construction.html">Construction</a></li>
+          <li class"mobile_menu_item"><a href="health.html">Health</a></li>
+          <li class"mobile_menu_item"><a href="it.html">IT</a></li>
+          <li class"mobile_menu_item"><a href="managementConsultancy.html">Management Consultancy</a></li>
+          <li class"mobile_menu_item"><a href="retail.html">Retail</a></li>
+          <li class"mobile_menu_item"><a href="social.html">Social</a></li>
+          <li class"mobile_menu_item"><a href="tourism.html">Tourism</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack3()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mobile_menu_container_5">
+        <ul>
+          <li class"mobile_menu_item"><a target="_blank" href="https://prexcelerate.eu/">PrEXCELerator Bulgaria</a></li>
+          <li class"mobile_menu_item"><a target="_blank" href="https://businesshubs.eu" onclick="openMenu()">Business Hubs</a></li>
+          <li class"mobile_menu_item"><a href="businessSimulations.html">Business Simulations</a></li>
+          <li class"mobile_menu_item" onclick="mobileMenuBack4()">
+            <a href="#">Back<img class="back" src="Resurces\Icons\left_w.png"></a>
+          </li>
+        </ul>
+      </section>
+
+    </header>
+
+    <section class="main_container" id="tech_hubs">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Tech Hubs</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <div class="blur_container">
+
+        <div class="card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">
+            <h2>01</h2>
+            <h3>Prop<br>Tech</h3>
+            <a target="_blank" href="http://proptechbulgaria.eu/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/Impact Ventures.jpg">
+            <h2>02</h2>
+            <h3>Impact<br>Ventures</h3>
+            <a target="_blank" href="http://impactventures.today/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/HealthTech.jpg">
+            <h2>03</h2>
+            <h3>Health<br>Tech</h3>
+            <a target="_blank" href="https://prexcelerate.eu/healthtech-hub/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/TourismTech.jpg">
+            <h2>04</h2>
+            <h3>Tourism<br>Tech</h3>
+            <a target="_blank" href="https://prexcelerate.eu/2020-bulgaria-tourism-tech-mapping-report/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/EduTech.jpg">
+            <h2>05</h2>
+            <h3>Edu<br>Tech</h3>
+            <a target="_blank" href="https://prexcelerate.eu/edutech-market-in-bulgaria/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <!--<img class="card_background_image" src="Resurces/Images/Tech Hubs/.jpg">-->
+            <h2>06</h2>
+            <h3>Food<br>Tech</h3>
+            <a target="_blank" href="https://prexcelerate.eu/industry-analyses/">Learn More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces/Images/Tech Hubs/FashionTech.jpg">
+            <h2>07</h2>
+            <h3>Fashion<br>Tech</h3>
+            <a target="_blank" href="https://prexcelerate.eu/blog/2020/12/10/fashion-tech-post/">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <img class="container_break" src="Resurces\Images\Container Breaks\PNG\5.png">
+
+    </section>
+
+    <section class="main_container" id="business_sumulations">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">Business</h1>
+      </div>
+
+      <div class="title_box">
+        <h1 class="section_title">Simulations</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <p class="paragraph">
+        Business simulations give real-life experience to participants. Our business track sets the perfect stage for analyzing the business development of over 50
+        corporate brands in 14 industries. The essence of the process is to begin with real and complex situation, glean the essential from it, get valuable insight
+        into industry dynamics, analyze companies which might be a partner or a competitor of yours.
+      </p>
+
+      <p class="paragraph">
+        As a result from a business simulation, participants know:
+      </p>
+
+      <ul>
+        <li class="paragraph list_item"><img src="Resurces\Icons\checked.png">How a certain company has made decisions</li>
+        <li class="paragraph list_item"><img src="Resurces\Icons\checked.png">What the consequences and respective results were</li>
+        <li class="paragraph list_item"><img src="Resurces\Icons\checked.png">How we can learn from their failures or success</li>
+      </ul>
+
+      <br>
+
+      <p class="paragraph">
+        Participants learn from their own experience how to apply complex managerial decisions-marking techniques on over 40 functional aspects.
+      </p>
+
+      <p class="paragraph">
+        Furthermore, all our business simulations naturally and by default encourage teamwork. All of them are an ideal tool to foster collaboration in troublesome teams.
+      </p>
+
+      <p class="paragraph">
+        Simulations allow participants to study a market and its players, allow them to take strategic or operational actions and get acquainted with the results.
+      </p>
+
+      <p class="paragraph">
+        There is no better teacher than real life, and our business simulations are the right setting for gaining real life business experience in a safe enviroment.
+      </p>
+
+      <a href="businessSimulations.html"><div class="btn from-top">Learn More</div></a>
+      <!--<div class="btn from-left">From Left</div>
+      <div class="btn from-right">From Right</div>
+      <div class="btn from-center">From Center</div>
+      <div class="btn from-bottom">From Bottom</div>-->
+
+      <img class="container_break_180 after_btn" src="Resurces\Images\Container Breaks\PNG\9.png">
+
+    </section>
+
+    <section class="main_container" id="advisory_hub">
+
+      <span class="container_title_line"></span>
+
+      <div class="title_box">
+        <h1 class="section_title">ADVISORY HUB</h1>
+      </div>
+
+      <span class="container_title_line"></span>
+
+      <h2 id="startup" class="second_title">STARTUP & SCALEUP COMPANIES</h2>
+
+      <div class="blur_container">
+
+        <div class="card horisontal_card">
+          <div class="content">
+            <h2>01</h2>
+            <h3>Validation</h3>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Advisory Hub\1.jpg">
+          <a target="_blank" href="https://prexcelerate.eu/startups-in-validation/">Learn More</a>
+        </div>
+
+        <div class="card horisontal_card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces\Images\Advisory Hub\2.jpg">
+            <h2>02</h2>
+            <h3>Business<br>Development</h3>
+          </div>
+          <a target="_blank" href="https://prexcelerate.eu/international-business-development/">Learn More</a>
+        </div>
+
+        <div class="card horisontal_card">
+          <div class="content">
+            <img class="card_background_image" src="Resurces\Images\Advisory Hub\3.jpg">
+            <h2>03</h2>
+            <h3>Finance &<br>Funding</h3>
+          </div>
+          <a target="_blank" href="https://prexcelerate.eu/finance-funding/">Learn More</a>
+        </div>
+
+        <div class="card horisontal_card">
+          <div class="content">
+            <h2>04</h2>
+            <h3>Pivoting</h3>
+          </div>
+          <img class="card_background_image" src="Resurces\Images\Advisory Hub\4.jpg">
+          <a href="https://prexcelerate.eu/pivoting/">Learn More</a>
+        </div>
+
+      </div>
+
+      <div class="blur_container">
+
+        <div class="media_card">
+          <div class="content">
+            <h2>01</h2>
+
+            <aside class="left_pannel">
+              <h3>JUDO Strategies Video</h3>
+              <p>
+                'Judo depends for success upon the skill of using an opponent’s own weight and strength against him, thus enabling a weak or light individual to overcome
+                a physically superior opponent.'<br>
+                This video is a showcase of the JUDO Strategies for Startups' Market Entry seminar/webinar.
+              </p>
+            </aside>
+
+            <aside class="right_pannel">
+              <iframe class="video_iframe"
+                src="https://www.youtube.com/embed/K7wEDXxEWZ0"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </aside>
+
+          </div>
+          <img class="card_background_image after_btn" src="Resurces\Images\Business Simulations\4.jpg">
+        </div>
+
+        <div class="media_card">
+          <div class="content">
+            <h2>02</h2>
+
+            <aside class="right_pannel">
+              <h3>Negotiations in the IT Industry</h3>
+              <p>
+                This video is part of a recent workshop on Negotiations in the IT Industry which took place on 22/05/2020.
+                The video depicts which is the break-it-or-make-it factor in negotiations and business relations.
+              </p>
+            </aside>
+
+            <aside class="left_pannel">
+              <iframe class="video_iframe"
+                src="https://www.youtube.com/embed/A5iOhC800sc"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </aside>
+
+          </div>
+          <img class="card_background_image after_btn" src="Resurces\Images\Business Simulations\4.jpg">
+        </div>
+
+      </div>
+
+      <h2 id="grownup" class="second_title">GROWN-UP COMPANIES</h2>
+
+      <h4>Corporate audits, organisational diagnostics & change management</h4>
+
+      <p class="paragraph">
+        In Gallup article published on 28 June 2018, their experts state: "According to our analysis, when companies select the top 20% of candidates based on scientific
+        assessment, they realize: * 41% less absenteeism * 70% fewer safety incidents * 59% less turnover * 10% higher customer metrics * 17% higher productivity * 21%
+        higher profitability."
+      </p>
+
+      <p class="paragraph">
+        Your culture may be the reason why you are not getting your top 20% of candidates. And until you start asking the right questions and analyzing your feedback, you won't
+        know if your culture is helping or hurting your bottom line.
+      </p>
+
+      <p class="paragraph">
+        A company that pays attention to the hardware part of its business like finances, operations, structures, can succeed only if paying attention to the software part as
+        well. Any corporate strategy should be backed up by a corresponding culture and business operations change.
+      </p>
+
+      <h4>Estimating the investment in partnership & feasibility researches</h4>
+
+      <p class="paragraph">
+        No business can grow healthy if there are no proper partners, whether it is about entering new markerts with existing products, or introducing completely new products.
+      </p>
+
+      <p class="paragraph">
+        Any partnership requires investment on both sides that will unite both parties' efforts to achieve more together. We are the ones to support you throughout this entire
+        process.
+      </p>
+
+      <h4>Estimating the investment in innovations. Validating innovative ideas</h4>
+
+      <p class="paragraph">
+        If you consider the development and introduction of new or improved products, or entering new markets, you need to validate what the estimated outcome could be BEFORE
+        investments. Hence, you will not only avoid the let-down from experiencing losses, but you are sure to succeed with the validated concept.
+      </p>
+
+      <h4>Executive coaching & career enhancement | MBA mentoring of senior managers</h4>
+
+      <p class="paragraph">
+        The business environment we work in is in a constant state of floatation. We will stand by you when you are in charge of the implementation of break-through innovative and new
+        processes. We have been close to many senior executive officers caring for and securing their success through times of change.
+      </p>
+
+    </section>
+
+    <section class="main_container" id="video">
+        <video class="full_width_video" controls>
+            <source src="Resurces/Render.mp4" type="video/mp4">
+        </video></section>
+
+    <footer class="footer">
+      <div class="blur_container">
+
+        <div class="full_width_card" id="main_footer_container">
+          <div class="content">
+            <!--<img class="card_background_image" src="Resurces/Images/Tech Hubs/PropTech.jpg">-->
+
+            <section id="left">
+              <a href=""><img id="footer_logo" src="Resurces/Images/Logos/logo.png"></a>
+              <p class="paragraph" id="year">© 2016 - 2021 Strategy+ Business Lab</p>
+              <p class="paragraph">All Rights Reserved!</p>
+
+              <h4>Contact Us</h4>
+
+              <a id="contact_us" href="mailto: hello@spbusinesslab.com">hello@spbusinesslab.com</a>
+            </section>
+
+            <section id="middle">
+              <h4 id="follow_us">Follow Us</h4>
+
+              <ul id="contacts_list">
+                <li class="contacts_list_item">
+                  <p>Strategy+ Business Lab</p>
+                  <a target="_blank" href="https://www.youtube.com/channel/UC0n_8hJ_opqCj5EBXItahaA/videos" style="background-color: #9933ff"><img src="Resurces\Icons\youtube_w.png"></a>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #d966ff"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/spbusinesslab" style="background-color: #ff66ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PrEXCELator Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/sp-business-lab/" style="background-color: #8000ff;background-color: "><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/PrEXCELerator" style="background-color: #cc33ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/prexcelerator_bulgaria/" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+
+                <li class="contacts_list_item">
+                  <p>PropTech Bulgaria</p>
+                  <a target="_blank" href="https://www.linkedin.com/company/proptech-bulgaria/" style="background-color: #6600cc"><img src="Resurces\Icons\linkedin_w.png"></a>
+                  <a target="_blank" href="https://www.facebook.com/proptechbulgaria" style="background-color: #bf00ff"><img src="Resurces\Icons\facebook_w.png"></a>
+                  <a target="_blank" href="https://www.instagram.com/proptech_bulgaria/?hl=af" style="background-color: #ff33cc"><img src="Resurces\Icons\instagram_w.png"></a>
+                  <a target="_blank" href="https://twitter.com/proptech_bg" style="background-color: #ff33ff"><img src="Resurces\Icons\twitter_w.png"></a>
+                </li>
+              </ul>
+
+            </section>
+
+            <section id="right">
+              <ul>
+                <li><a target="_blank" href="http://proptechbulgaria.eu/">PropTech</a></li>
+                <li><a target="_blank" href="http://impactventures.today/">Impact Ventures</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/healthtech-hub/">HealthTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/2020-bulgaria-tourism-tech-mapping-report/">Tourism Tech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/edutech-market-in-bulgaria/">EduTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/industry-analyses/">FoodTech</a></li>
+                <li><a target="_blank" href="https://prexcelerate.eu/blog/2020/12/10/fashion-tech-post/">FashionTech</a></li>
+              </ul>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="blur_container">
+
+        <div class="full_width_card" id="developed_by_container">
+          <p id="developed_by">Developed By Simeon Kondov</p>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <a href="#" id="scroll_to_top_button"><img src="Resurces\Icons\to-top.png"></a>
+
+  </body>
+</html>

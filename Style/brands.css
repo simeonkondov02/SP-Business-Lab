@@ -1,0 +1,23 @@
+#brands_logos_container {
+  text-align: center;
+  margin: 150px 100px 0 100px;
+}
+
+@media screen and (max-width: 100vh) {
+  #brands_logos_container {
+    margin: 0 10px;
+  }
+}
+
+.brand_logo {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  filter: drop-shadow(3px 6px 9px rgb(10, 10, 10));
+  transition: 0.3s;
+}
+
+.brand_logo:hover {
+  transform: scale(1.2, 1.2);
+  filter: drop-shadow(6px 9px 12px rgb(10, 10, 10));
+}
